@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>UpConstruction Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+     <!-- Customized Bootstrap Stylesheet -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: UpConstruction
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+         <img src="assets/img/logo.jpeg" alt="" width="200px"> 
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Projects</a></li>
+          <li><a href="projects.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+
+    <div class="info d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 data-aos="fade-down">Welcome to <span>Tayshete Industries</span></h2>
+            <p data-aos="fade-up">The company is formed by considering and fulfilling the apportunities and needs of the upcoming market.From the past yeras of experience and excellence in same field we are very sure about our greate sevices.</p>
+            <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <div class="carousel-item active" style="background-image: url(assets/img/slider4.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/slider3.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/slider2.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/slider5.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/slider1.jpg)"></div>
+
+      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+
+  </section><!-- End Hero Section 
+  
+      <!-- Facts Start -->
+    <div class="container-fluid facts py-5 pt-lg-0">
+        <div class="container py-5 pt-lg-0">
+            <div class="row gx-0">
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <i class="fa fa-users text-primary"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Happy Clients</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">200</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <i class="fa fa-check text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-primary mb-0">Projects Done</h5>
+                            <h1 class="mb-0" data-toggle="counter-up">280</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <i class="fa fa-award text-primary"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Win Awards</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">9</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts Start -->
+
+
+  <main id="main">
+
+    <!-- ======= Get Started Section ======= -->
+    <section id="get-started" class="get-started section-bg">
+      <div class="container">
+
+        <div class="row justify-content-between gy-4">
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
+            <div class="content">
+			  <h1 style="color:red; font-family:serif; ">About Us </h1>
+              <h3>The Best mining Solution With 30 Years of Experience.</h3>
+              <p>We are a team working in patnership with our clints to provide best value mining and landcare solutions for there needs,safety and portability and  value driven organization.
+              <p>To be the first choice sevices provider of mining industries. We aim to offer a diversifide portfolio of contract mining ans aggrigate generation services. And will continually innovate towards achieving customers.</p>
+            </div>
+          </div>
+		  
+          <div class="col-lg-5" data-aos="fade">
+		    
+			<div class="position-relative h-100" style="height: 1000px;">
+              <img class="position-absolute w-100 h-100 rounded wow zoomIn" src="assets/img/about2.jpg" style="object-fit: cover; height: 700px;">
+            </div>
+		  
+		  </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Get Started Section -->
+	
+	<!-- Features Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Why Choose Us</h5>
+                <h1 class="mb-0">We Are Here to Grow Your INDUSTRIES</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-cubes text-white"></i>
+                            </div>
+                            <h4>Best In Industry</h4>
+                            <p class="mb-0">Tayshete Industries Privet limited is a company which expert in many business like mining, earthwork, cruching etc.</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-award text-white"></i>
+                            </div>
+                            <h4>Award Winning</h4>
+                            <p class="mb-0">Tayshete Industries are continuously wining awards after completing every project.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="assets/img/feature.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-users-cog text-white"></i>
+                            </div>
+                            <h4>Best Team</h4>
+                            <p class="mb-0">Tayshete Industries working with best team to fullfill the clients demands.</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-phone-alt text-white"></i>
+                            </div>
+                            <h4>24/7 Support</h4>
+                            <p class="mb-0">Tayshete Industries provoide there services by 24/7 on.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features Start -->
+
+    <!-- ======= Constructions Section ======= -->
+    <section id="constructions" class="constructions">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Explore Our Case Studies</h2>
+          <p> To be the first choice service provider of mining industries we aim to offer a diversifide portfolio of contract mining</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/case1.jpeg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Innovation Meets Excellence-HEMM Leasing</h4>
+                    <p>Tayshete Industry is committed to sustainable development both in the environment and the Business. The team of our innovative minds believed that instead of dumping the scrap materials, we should reuse and remanufacture them.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/case2.jpeg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Efficient Project Execution – Mangampet Operations</h4>
+                    <p>The magnitude of the projects keep increasing day by day. As it grows, the projects become more complex and demanding. Efficient and effective project execution is a key to control.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/case3.jpeg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Optimizing Mining Projects – Balda Block Iron Ore Mines</h4>
+                    <p>The Global Mining Industry is entering into an Era of technological development. With the continuous evolution of technology and increasing scale of the projects, Mining industry is embarking the great convergence of IT and operational technologies.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/quickimage.jpeg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Quick Dispatch System – An In-house Innovation</h4>
+                    <p>The Prevailing approach in the dispatch system had limitations. Quick Dispatch system was introduced to maximize the production and efficiency, while increasing safety and control.Tayshete industries In-house Engineer Developed the Concept of Quick Dispatch System.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Constructions Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Services</h2>
+          <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-mountain-city"></i>
+              </div>
+              <h3>Mining Machinery</h3>
+              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+              <a href="projects.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+              </div>
+              <h3>Crushing Equipment</h3>
+              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+              <a href="projects.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-compass-drafting"></i>
+              </div>
+              <h3>Excavation Earthwork</h3>
+              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+              <a href="projects.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-trowel-bricks"></i>
+              </div>
+              <h3>Umblical Remotes</h3>
+              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+              <a href="projects.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-helmet-safety"></i>
+              </div>
+              <h3>Drilling</h3>
+              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+              <a href="projects.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+              </div>
+              <h3>Screening</h3>
+              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+              <a href="projects.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+	
+
+    <!-- ======= Alt Services Section ======= -->
+    <section id="alt-services" class="alt-services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row justify-content-around gy-4">
+          <div class="col-lg-6 img-bg" style="background-image: url(assets/img/vehicle.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+
+          <div class="col-lg-5 d-flex flex-column justify-content-center">
+            <h3>OUR VALUES</h3>
+            <p>To deliver outstanding result that make us proud of how we act and difference we make we will endeavour to achive leadership in diversified contract minimg services focused on infrastucture development.  </p>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+              <i class="bi bi-easel flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">PEOPLE</a></h4>
+                <p>Safety is our first priority </p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-patch-check flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">HONESTY</a></h4>
+                <p>We speak the Truth.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-brightness-high flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">COMMITMENT</a></h4>
+                <p>We are All in.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-brightness-high flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">RESULT</a></h4>
+                <p>We deliver on promises.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Alt Services Section -->
+
+
+    <!-- ======= Our Projects Section ======= -->
+     <section id="projects" class="projects">
+      <div class="container" data-aos="fade-up">
+
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
+
+          <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
+            
+            <li data-filter=".filter-construction"><h1>Our Project</h1></li>
+           
+          </ul><!-- End Projects Filters -->
+
+          <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/one1.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                 
+                  <p>Ripping and dozing at VMS co. Vagus goa</p>
+                  <a href="assets/img/projects/one1.jpeg" title="" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/two.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                
+                  <p>Construction of road at satara,sindhudurg dist,Maharashtra with M.VKumtekar.</p>
+                  <a href="assets/img/projects/two.jpeg" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/three.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                
+                  <p>Dozing at vagus mines for two years through GP transport</p>
+                  <a href="assets/img/projects/three.jpeg" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+			 <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/four.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                 
+                  <p>over burden removel from mesco mines(Roida)under G.S.Atwals with M/S 4pillars Pvt.Ltd.in Orissa.</p>
+                  <a href="assets/img/projects/four.jpeg" title="" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/five.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                
+                  <p>Ripping and dozing at kanakmahalakshmi, Sargudu, Visakapattnam, Andhra Pradesh.</p>
+                  <a href="assets/img/projects/five.jpeg" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/six.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                
+                  <p>Excavation and bauxite and oveburden material at shivam minerals, shahuwadi,kolhapur</p>
+                  <a href="assets/img/projects/six.jpeg" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+			
+			 <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/seven.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                 
+                  <p>Raising of bauxite PAG mines, Shahuwadi,kolhapur</p>
+                  <a href="assets/img/projects/seven.jpeg" title="" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/eleven.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                
+                  <p>Raising of iron ore at magnum minerals,myna,kavare,keppe,Goa</p>
+                  <a href="assets/img/projects/eleven.jpeg" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/nine.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                
+                  <p>Raising of bauxite at west coast india mining Pvt.Ltd Ratnagiri</p>
+                  <a href="assets/img/projects/nine.jpeg" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            
+
+          </div><!-- End Projects Container -->
+
+        </div>
+
+      </div>
+    </section><!-- End Our Projects Section -->
+
+
+
+
+            
+  </main><!-- End #main -->
+
+   <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h1 style="color:#FFA500; font-weight: bold;">TAYSHETE</h1>
+		<h1 style="color:#FFFFFF; font-weight: bold;">&nbsp;&nbsp;INDUSTRIES</h1>
+              <div class="social-links d-flex mt-3">
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End footer info column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="About.html">About us</a></li>
+              <li><a href="servises.html">Projects</a></li>
+              <li><a href="projects.html">services</a></li>
+              <li><a href="contact.html">contact</a></li>
+            </ul>
+			
+          </div><!-- End footer links column-->
+		  <div class="col-lg-2 col-md-3 footer-links">
+		  <h4>Address</h4>
+            <p>
+                Tayshete Industries
+135 Radhanagari Main Road Kamlai Niwas,
+ Kanerkar Nagar,
+ Radhanagari,
+ Kolhapur-416212, Maharashtra, India
+
+<br>
+              </p>
+          </div><!-- End footer links column-->
+		   <div class="col-lg-2 col-md-3 footer-links">
+		   <h4>Contact Us</h4>
+            <p>
+			 SANGRAM SANJAY TAYSHETE<br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@example.com<br>
+				<strong>GST no:</strong>27AAUFT0575D1ZV<br>
+              </p>
+            </div>
+			<div class="col-lg-2 col-md-3 footer-links">
+            <p>
+			     <img src="assets/img/scanner.jpeg">
+               
+                
+              </p>
+
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>TAYSHETE INDUSTRIES</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
+          <a href="https://bootstrapmade.com/"></a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  
+
+</body>
+
+</html>
